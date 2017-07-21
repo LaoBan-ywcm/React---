@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-
 function Square(props){
     return (
         <button className="square" onClick={props.onClick}>
@@ -81,7 +80,7 @@ class Game extends React.Component {
                 squares:Array(9).fill(null)
             }],
             xIsNext:false,
-            stepNumber:0
+            stepNumber:0,
         }
     }
 
